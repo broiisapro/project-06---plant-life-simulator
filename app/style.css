@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#plant-container {
+    margin-bottom: 20px;
+}
+
+#plant {
+    width: 150px;
+    height: auto;
+    transition: transform 1s, opacity 1s;
+}
+
+#messages {
+    margin-bottom: 20px;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+}
+
+#water-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#water-button:hover {
+    background-color: #45a049;
+}
